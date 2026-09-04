@@ -1,0 +1,21 @@
+{
+  "cases": [
+    {
+      "name": "uppercases input",
+      "input": "hello agent",
+      "assert": {
+        "exit_code": 0,
+        "contains": "HELLO AGENT",
+        "json": {"safe": true}
+      }
+    },
+    {
+      "name": "returns structured output",
+      "input": "status",
+      "assert": {
+        "regex": "\\{.*\\}",
+        "json": {"answer": "STATUS"}
+      }
+    }
+  ]
+}
