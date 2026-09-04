@@ -1,5 +1,7 @@
 # EvalCase
 
+[![CI](https://github.com/al1re3a/evalcase/actions/workflows/ci.yml/badge.svg)](https://github.com/al1re3a/evalcase/actions/workflows/ci.yml) [![MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 **Regression-test any agent through the CLI it already has.**
 
 EvalCase is a tiny, provider-neutral runner for deterministic AI and agent evaluations. It sends each case to a command on stdin and checks exact text, substrings, regexes, exit codes, and nested JSON fields.
